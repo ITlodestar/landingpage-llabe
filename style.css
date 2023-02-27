@@ -445,23 +445,13 @@ section.section-1 .items p span {
 .commiting {
     margin-top: 60px;
     height: 300px;
+    background-image: url('./img/testbg.png');
     background-color: #8B59DC;
     position: relative;
     padding-top: 60px;
-}
-
-.commiting::before {
-    content: "";
-    background-image: url('./img/testbg.png');
     background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.1;
-    z-index: 1;
 }
+ 
 
 .commiting h1 {
     font-weight: 600;
