@@ -546,8 +546,18 @@ button {
     line-height: 130%;
 }
 
-footer {
-    height: 230px;
+.contact-form form{
+    padding-top: 39px;
+}
+
+.contact-form form div{
+    max-width: 340px;
+}
+
+.contact-form form div textarea{
+    height: 126px;
+}
+footer { 
     padding: 36px 180px;
     border-top: 2px solid #000000;
 }
@@ -562,4 +572,12 @@ footer .copyright {
 footer li , footer a{
     display: block;
     color: #000000;
+}
+
+footer ul {
+    padding-bottom: 32px;
+}
+
+footer .copyright {
+    padding-bottom: 32px;
 }
