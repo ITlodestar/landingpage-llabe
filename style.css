@@ -6,9 +6,10 @@
 }
 
 li,
-a { 
+a {
     color: #000000;
 }
+
 * a {
     color: #8B59DC;
     text-decoration: none;
@@ -140,7 +141,8 @@ header .contact-btn {
 
 
 section {
-    padding: 70px 0;
+    padding: 70px 10px;
+    margin: auto;
 }
 
 section .title {
@@ -235,7 +237,8 @@ section.section-1 .items p span {
 .section-2 .items {
     background-image: url(./img/items1.png);
     width: 1054px;
-    height: 500.78px;
+    height: auto;
+    background-repeat: no-repeat;
     background-size: 100%;
 }
 
@@ -315,8 +318,7 @@ section.section-1 .items p span {
     color: #8B59DC;
 }
 
-.section-4 .plan {
-    min-height: 460px;
+.section-4 .plan { 
     display: grid;
     align-items: center;
 }
@@ -434,6 +436,7 @@ section.section-1 .items p span {
     height: 400px;
     padding: 30px;
     min-width: 320px;
+    background-color: #FFFFFF;
 }
 
 .clients img {
@@ -451,7 +454,7 @@ section.section-1 .items p span {
     padding-top: 60px;
     background-size: cover;
 }
- 
+
 
 .commiting h1 {
     font-weight: 600;
@@ -492,6 +495,7 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 27px;
+    padding-left: 30px;
 }
 
 .max-w-960 {
@@ -536,19 +540,44 @@ button {
     line-height: 130%;
 }
 
-.contact-form form{
+.contact-form form {
     padding-top: 39px;
 }
 
-.contact-form form div{
+.contact-form form div {
     max-width: 340px;
 }
 
-.contact-form form div textarea{
+.contact-form form div textarea {
     height: 126px;
 }
-footer { 
-    padding: 36px 180px;
+
+
+@media (max-width: 1200px) {
+    .contact-us {
+        padding-left: 20px;
+        padding-right: 20px; 
+        background-color: #f4f5f800;
+        display: flex;
+        justify-content: center;
+    }
+    .contact-us .title {
+        padding-top: 20px;
+        padding-left: 20px; 
+    }
+    .contact-us .title div{
+        text-align: center;
+    }
+    
+    .contact-us form div{
+        margin: auto;
+    }
+}
+footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 36px 150px;
     border-top: 2px solid #000000;
 }
 
@@ -558,16 +587,15 @@ footer .copyright {
     justify-content: flex-end;
     flex-direction: row;
     flex-wrap: nowrap;
+    padding-bottom: 32px;
 }
-footer li , footer a{
+
+footer li,
+footer a {
     display: block;
     color: #000000;
 }
 
 footer ul {
-    padding-bottom: 32px;
-}
-
-footer .copyright {
     padding-bottom: 32px;
 }
