@@ -237,14 +237,19 @@ section.section-1 .items p span {
 .section-2 .items {
     background-image: url(./img/items1.png);
     width: 1054px;
-    height: 600px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-@media (max-width: 700px) {
+.section-2 button.active{
+    background-color: #8B59DC;
+    border: none;
+    color: #FFFFFF;
+}
+@media (max-width: 1024px) {
     .section-2 .items {
-        height: 400px; 
+        height: 375px; 
     }  
 }
 .section-3 {
