@@ -242,6 +242,11 @@ section.section-1 .items p span {
     background-size: 100%;
 }
 
+@media (max-width: 700px) {
+    .section-2 .items {
+        height: 400px; 
+    }  
+}
 .section-3 {
     max-width: 1050px;
     margin: auto;
@@ -339,7 +344,6 @@ section.section-1 .items p span {
 }
 
 .section-4 .pay-base {
-    height: 460px;
     border: 1px solid #8B59DC;
     border-radius: 10px;
     padding: 30px;
