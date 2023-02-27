@@ -237,7 +237,7 @@ section.section-1 .items p span {
 .section-2 .items {
     background-image: url(./img/items1.png);
     width: 1054px;
-    height: auto;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -436,6 +436,7 @@ section.section-1 .items p span {
     height: 400px;
     padding: 30px;
     min-width: 320px;
+    max-width: 520px;
     background-color: #FFFFFF;
 }
 
