@@ -242,16 +242,23 @@ section.section-1 .items p span {
     background-size: 100%;
 }
 
-.section-2 button.active{
+.section-2 button.active {
     background-color: #8B59DC;
     border: none;
     color: #FFFFFF;
 }
+
+.section-2 .buttons {
+    max-width: 968px; 
+    margin: auto;
+}
+
 @media (max-width: 1024px) {
     .section-2 .items {
-        height: 375px; 
-    }  
+        height: 375px;
+    }
 }
+
 .section-3 {
     max-width: 1050px;
     margin: auto;
@@ -328,7 +335,7 @@ section.section-1 .items p span {
     color: #8B59DC;
 }
 
-.section-4 .plan { 
+.section-4 .plan {
     display: grid;
     align-items: center;
 }
@@ -566,23 +573,26 @@ button {
 @media (max-width: 1200px) {
     .contact-us {
         padding-left: 20px;
-        padding-right: 20px; 
+        padding-right: 20px;
         background-color: #f4f5f800;
         display: flex;
         justify-content: center;
     }
+
     .contact-us .title {
         padding-top: 20px;
-        padding-left: 20px; 
+        padding-left: 20px;
     }
-    .contact-us .title div{
+
+    .contact-us .title div {
         text-align: center;
     }
-    
-    .contact-us form div{
+
+    .contact-us form div {
         margin: auto;
     }
 }
+
 footer {
     font-weight: 400;
     font-size: 14px;
