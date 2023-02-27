@@ -241,7 +241,12 @@ section.section-1 .items p span {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
+.section-2 button {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000; 
+    line-height: 25px;
+}
 .section-2 button.active {
     background-color: #8B59DC;
     border: none;
@@ -249,8 +254,8 @@ section.section-1 .items p span {
 }
 
 .section-2 .buttons {
-    max-width: 968px; 
-    margin: auto;
+    max-width: 968px;
+    margin: auto; 
 }
 
 @media (max-width: 1024px) {
@@ -434,6 +439,7 @@ section.section-1 .items p span {
 }
 
 .background-key h1,
+.background-key .content,
 .background-key .span,
 .background-key .service {
     color: #FFFFFF;
