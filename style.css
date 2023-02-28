@@ -742,7 +742,9 @@ footer ul {
         height: 232px;
         padding: 35px 25px;
     }
-
+    .section-4 .plan h1 {
+        max-width: none;
+    }
     .commiting {
         padding-top: 30px;
     }
@@ -845,4 +847,7 @@ footer ul {
 .carousel-control-next span,
 .carousel-control-prev span {
     background-color: #FFFFFF !important;
+}
+.carousel-item { 
+    justify-content: center;
 }
