@@ -1,6 +1,6 @@
 .main {
     margin: auto;
-    max-width: 1400px;
+    max-width: 1200px;
     font-family: 'Manrope';
     font-style: normal;
 }
@@ -65,7 +65,7 @@ header ul li a {
 
 }
 
-header .contact-btn {
+.contact-btn {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -151,17 +151,18 @@ section .title {
     line-height: 66px;
 }
 
-section .content {
+section .section_content {
     font-weight: 300;
     font-size: 18px;
     line-height: 25px;
+    padding: 10px 30px;
 }
 
 section.section-1 .items {
     background: #F4F5F8;
     padding: 35px 26px;
     max-width: 300px;
-    min-width: 300px;
+    height: 300px;
 }
 
 section.section-1 .items .number {
@@ -239,14 +240,15 @@ section.section-1 .items p span {
     width: 1054px;
     height: 500px;
     background-repeat: no-repeat;
-    background-size: 100%;
 }
+
 .section-2 button {
     font-weight: 700;
     font-size: 18px;
-    color: #000000; 
+    color: #000000;
     line-height: 25px;
 }
+
 .section-2 button.active {
     background-color: #8B59DC;
     border: none;
@@ -255,14 +257,10 @@ section.section-1 .items p span {
 
 .section-2 .buttons {
     max-width: 968px;
-    margin: auto; 
+    margin: auto;
 }
 
-@media (max-width: 1024px) {
-    .section-2 .items {
-        height: 375px;
-    }
-}
+
 
 .section-3 {
     max-width: 1050px;
@@ -519,6 +517,7 @@ button {
     font-size: 20px;
     line-height: 27px;
     padding-left: 30px;
+    text-align: left;
 }
 
 .max-w-960 {
@@ -605,6 +604,7 @@ footer {
     line-height: 19px;
     padding: 36px 150px;
     border-top: 2px solid #000000;
+    display: flex;
 }
 
 footer .copyright {
@@ -624,4 +624,132 @@ footer a {
 
 footer ul {
     padding-bottom: 32px;
+}
+
+.mobile-header {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .desktop {
+        display: none !important;
+    }
+
+    .hero-title-3 {
+        max-width: none !important;
+    }
+
+    section.section-1 .items {
+        min-width: 420px;
+    }
+
+    header {
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .humger-mobile {
+        animation-duration: 750ms;
+        margin-top: 27px;
+        width: 40px;
+        height: 24px;
+        background-color: #FFFFFF;
+    }
+
+    .mobile-header.active {
+        display: block;
+    }
+
+    .mobile-header ul {
+        position: absolute;
+        height: 468px;
+    }
+
+    .mobile-header  li {
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .mobile-header li a {
+        color: #000000;
+    }
+
+    .humger-mobile div {
+        height: 2px;
+        background-color: #000000;
+    }
+
+    .humger-mobile div#first-bar {
+        margin-bottom: 12px;
+    }
+
+    .humger-mobile div#mid-bar {
+        margin-bottom: 12px;
+    }
+
+    .hero .content {
+        padding: 0;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .hero .title {
+        text-align: center;
+    }
+
+    .section-1 .number-title {
+        display: flex;
+        align-items: center;
+    }
+
+    .section-1 .items {
+        max-height: 181px;
+        margin-bottom: 0;
+    }
+    section.section-1 .items p {
+        max-width: none;
+    }
+    section.section-1 .items h1 {
+        max-width: none;
+        padding-left: 24px;
+    }
+
+    .section-3 .items {
+        width: 200px;
+        height: 232px;
+        padding: 35px 25px;
+    }
+
+    .commiting {
+        padding-top: 30px;
+    }
+    footer {
+        padding: 30px 60px !important;
+        display: grid;
+    }
+
+    footer .copyright {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.humger-mobile.active #mid-bar {
+    display: none;
+}
+
+.humger-mobile.active #first-bar {
+    transform: rotate(315deg);
+    margin-bottom: 0px;
+}
+
+.humger-mobile.active #end-bar {
+    margin-bottom: 20px;
+    transform: rotate(45deg);
 }
