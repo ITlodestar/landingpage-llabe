@@ -22,7 +22,7 @@ $(document).ready(function () {
         }
     });
     $("#carousel-1").carousel({
-        interval: 1000
+        interval: 5000
     });
     
     $("#carousel-1.carousel .carousel-item").each(function () {

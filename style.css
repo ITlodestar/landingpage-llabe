@@ -631,9 +631,25 @@ footer ul {
     display: none;
 }
 
+.no-carosel {
+    display: block !important;
+}
+
+#carosel_controls {
+    display: none !important;
+}
+
 @media (max-width: 480px) {
+    .no-carosel {
+        display: none !important;
+    }
+
     .desktop {
         display: none !important;
+    }
+
+    #carosel_controls {
+        display: block !important;
     }
 
     .hero-title-3 {
@@ -822,9 +838,13 @@ footer ul {
     padding: 5px 5px 5px 5px;
     height: 10rem;
 }
-.carousel-control-next, .carousel-control-prev {
-   width: 3%;
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 3%;
 }
-.carousel-control-next span, .carousel-control-prev span{
+
+.carousel-control-next span,
+.carousel-control-prev span {
     background-color: #FFFFFF !important;
- }
+}
