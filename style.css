@@ -656,9 +656,7 @@ footer ul {
         max-width: none !important;
     }
 
-    section.section-1 .items {
-        min-width: 420px;
-    }
+    
 
     header {
         justify-content: space-between;
@@ -750,8 +748,9 @@ footer ul {
     }
 
     footer {
-        padding: 30px 60px !important;
+        padding: 30px 0px !important;
         display: grid;
+        margin-top: 65px;
     }
 
     footer .copyright {
@@ -839,8 +838,7 @@ footer ul {
     height: 10rem;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
+.w-0 {
     width: 3%;
 }
 
