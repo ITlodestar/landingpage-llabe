@@ -83,9 +83,10 @@ header ul li a {
     cursor: pointer;
 }
 
+/* 
 .hero .content {
     padding: 30px 110px;
-}
+} */
 
 .hero img {
     max-width: 600px;
@@ -666,7 +667,7 @@ footer ul {
         height: 468px;
     }
 
-    .mobile-header  li {
+    .mobile-header li {
         display: flex;
         justify-content: center;
         font-weight: 400;
@@ -712,9 +713,11 @@ footer ul {
         max-height: 181px;
         margin-bottom: 0;
     }
+
     section.section-1 .items p {
         max-width: none;
     }
+
     section.section-1 .items h1 {
         max-width: none;
         padding-left: 24px;
@@ -729,6 +732,7 @@ footer ul {
     .commiting {
         padding-top: 30px;
     }
+
     footer {
         padding: 30px 60px !important;
         display: grid;
@@ -753,3 +757,74 @@ footer ul {
     margin-bottom: 20px;
     transform: rotate(45deg);
 }
+
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+}
+
+.carousel-inner .carousel-item {
+    transition: transform 1.5s ease;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}
+
+.overlay {
+    z-index: 1;
+    padding: 0;
+    border: none;
+    background: rgba(68, 68, 68, 0.5);
+}
+
+#pad {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.color-1 {
+    background-color: rgb(255, 140, 140);
+}
+
+.color-2 {
+    background-color: rgb(255, 205, 140);
+}
+
+.color-3 {
+    background-color: rgb(173, 255, 140);
+}
+
+.color-4 {
+    background-color: rgb(140, 186, 255);
+}
+
+.color-5 {
+    background-color: rgb(194, 140, 255);
+}
+
+.bordered {
+    border: rgb(220, 220, 220) medium solid;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    height: 10rem;
+}
+.carousel-control-next, .carousel-control-prev {
+   width: 3%;
+}
+.carousel-control-next span, .carousel-control-prev span{
+    background-color: #FFFFFF !important;
+ }
