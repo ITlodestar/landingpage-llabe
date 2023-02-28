@@ -813,25 +813,7 @@ footer ul {
     padding-right: 5px;
 }
 
-.color-1 {
-    background-color: rgb(255, 140, 140);
-}
-
-.color-2 {
-    background-color: rgb(255, 205, 140);
-}
-
-.color-3 {
-    background-color: rgb(173, 255, 140);
-}
-
-.color-4 {
-    background-color: rgb(140, 186, 255);
-}
-
-.color-5 {
-    background-color: rgb(194, 140, 255);
-}
+ 
 
 .bordered {
     border: rgb(220, 220, 220) medium solid;
@@ -844,10 +826,6 @@ footer ul {
     width: 3%;
 }
 
-.carousel-control-next span,
-.carousel-control-prev span {
-    background-color: #FFFFFF !important;
-}
 .carousel-item { 
     justify-content: center;
 }
