@@ -828,8 +828,10 @@ footer ul {
     transition: transform 1.5s ease;
 }
 
-@media (max-width: 480px) {
-
+@media (max-width: 992px) {
+    .section-1 .row {
+        max-width: 615px;
+    }
     .carousel-inner .carousel-item-right.active,
     .carousel-inner .carousel-item-next {
         transform: translateX(100%);
