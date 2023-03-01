@@ -10,13 +10,13 @@ $(document).ready(function () {
             $(badge).html('-');
         }
     });
-    $("#humger").click(function (e) {
+    $("#hamburger").click(function (e) {
         if (index_mobile) {
-            $("#humger").addClass("active");
+            $("#hamburger").addClass("active");
             $(".mobile-header").addClass("active");
             index_mobile = false;
         } else {
-            $("#humger").removeClass("active");
+            $("#hamburger").removeClass("active");
             $(".mobile-header").removeClass("active");
             index_mobile = true;
         }
