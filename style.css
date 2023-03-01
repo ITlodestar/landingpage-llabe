@@ -515,13 +515,13 @@ button {
     color: #000000;
     cursor: pointer;
     margin: 7px;
+    padding-left: 30px;
 }
 
 .question h1 {
     font-weight: 500;
     font-size: 20px;
-    line-height: 27px;
-    padding-left: 30px;
+    line-height: 27px; 
     text-align: left;
 }
 
