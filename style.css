@@ -45,7 +45,7 @@ header {
 }
 
 header img.logo {
-    height: 25.33px; 
+    height: 25.33px;
 }
 
 header ul {
@@ -521,7 +521,7 @@ button {
 .question h1 {
     font-weight: 500;
     font-size: 20px;
-    line-height: 27px; 
+    line-height: 27px;
     text-align: left;
 }
 
@@ -657,7 +657,7 @@ footer ul {
     }
 
     .hamburger-mobile {
-        animation-duration: 750ms; 
+        animation-duration: 750ms;
         width: 40px;
         height: 24px;
         background-color: #FFFFFF;
@@ -786,9 +786,11 @@ footer ul {
         justify-content: center;
     }
 }
+
 .hamburger-mobile.active {
     margin-top: 24px;
 }
+
 .hamburger-mobile.active #mid-bar {
     display: none;
 }
@@ -824,6 +826,19 @@ footer ul {
 
 .carousel-inner .carousel-item {
     transition: transform 1.5s ease;
+}
+
+@media (max-width: 480px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(100%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-100%);
+    }
 }
 
 .carousel-inner .carousel-item-right,
