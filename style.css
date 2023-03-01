@@ -506,6 +506,8 @@ button {
     background-color: #8B59DC;
     width: 24px;
     height: 24px;
+    left: 3px;
+    padding-left: 6px;
     border-radius: 50%;
 }
 
@@ -710,8 +712,6 @@ footer ul {
         display: none !important;
     }
 
-
-
     #carosel_controls {
         display: block !important;
     }
@@ -721,14 +721,11 @@ footer ul {
     }
 
 
-
     header {
         justify-content: space-between;
         padding-left: 30px;
         padding-right: 30px;
     }
-
-
 
     .hero .content {
         padding: 0;
@@ -798,7 +795,7 @@ footer ul {
 .hamburger-mobile.active #first-bar {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    margin-bottom: 0px;
+    margin-bottom: -1px;
 }
 
 .hamburger-mobile.active #end-bar {
@@ -832,6 +829,7 @@ footer ul {
     .section-1 .row {
         max-width: 615px;
     }
+
     .carousel-inner .carousel-item-right.active,
     .carousel-inner .carousel-item-next {
         transform: translateX(100%);
