@@ -139,6 +139,8 @@ header ul li a {
     width: 24px;
     height: 24px;
     border-radius: 50%;
+    left: 3px;
+    padding-left: 6px;
 }
 
 
