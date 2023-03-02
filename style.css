@@ -574,6 +574,39 @@ button {
     height: 126px;
 }
 
+.contact-us .iti--allow-dropdown {
+    width: 100%;
+}
+
+#success h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 66px;
+    padding-top: 45px;
+}
+
+#success p {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    max-width: 278px;
+    margin: auto;
+    color: #575757;
+}
+
+#success button {
+    width: 111px;
+    height: 55px; 
+    padding: 0 !important;
+    color: #FFFFFF;
+    border: none;
+    background: #8B59DC;
+    box-shadow: 0px 3.61353px 11.744px #E3D1FF;
+    border-radius: 13.5507px;
+}
 
 @media (max-width: 1200px) {
     .contact-us {
@@ -704,6 +737,7 @@ footer ul {
     #solution .carousel-item {
         height: 400px;
     }
+
     .no-carosel {
         display: none !important;
     }
@@ -820,9 +854,11 @@ footer ul {
 .carousel-inner .carousel-item {
     transition: transform 1.5s ease;
 }
+
 .carousel-indicators {
-    position:  relative !important;
+    position: relative !important;
 }
+
 .carousel-indicators [data-bs-target] {
     text-indent: 0 !important;
     width: auto;
@@ -830,6 +866,7 @@ footer ul {
     flex: auto;
     border: none;
 }
+
 @media (max-width: 992px) {
     .section-1 .row {
         max-width: 615px;
@@ -879,6 +916,7 @@ footer ul {
 .carousel-item {
     justify-content: center;
 }
+
 /* 
 #carousel-2 .carousel-inner .active.carousel-item-start,
 #carousel-2 .carousel-inner .carousel-item-next {
