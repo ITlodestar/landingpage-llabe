@@ -1,5 +1,6 @@
 $(document).ready(function () {
     let index_mobile = true;
+
     $(".question .under_bar, .question p").hide();
     $(".question").click(function (e) {
         $(`#${this.id} .under_bar,#${this.id} p`).slideToggle();
@@ -10,6 +11,9 @@ $(document).ready(function () {
             $(badge).html('-');
         }
     });
+    $('.mobile-header').click(function( e ) {
+        $(".mobile-header").removeClass("active");
+    })
     $("#hamburger").click(function (e) {
         if (index_mobile) {
             $("#hamburger").addClass("active");
@@ -21,6 +25,7 @@ $(document).ready(function () {
             index_mobile = true;
         }
     });
+    
     $("#carousel-1").carousel({
         interval: 5000
     });
