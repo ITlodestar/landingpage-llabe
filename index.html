@@ -15,12 +15,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="./script.js"></script>
-  <script>
-    let indexContactus = false;
-    function sendMessage() {
-      indexContactus = true; 
+  <script> 
+    function sendMessage() { 
       $('#success').css('display', 'block');
       $('#form-contact').css('display', 'none');
+    }
+    function Gotit() { 
+      $('#success').css('display', 'none');
+      $('#form-contact').css('display', 'block');
     }
   </script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css" />
@@ -517,7 +519,7 @@
         <h1>Thank you</h1>
         <p>We will reach back to you as soon as possible!</p>
 
-        <button type="button">Got it</button>
+        <button type="button" onclick="Gotit()">Got it</button>
       </div>
 
       <div class="row" id="form-contact">
