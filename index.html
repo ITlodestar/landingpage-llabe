@@ -606,11 +606,11 @@
       url: "send.php",
       method: "post",
       data: data ,
-      success: function (data) {
+      success: function (result) {
         $('#success').css('display', 'block');
         $('#form-contact').css('display', 'none');
         console.log(
-          data
+          result
         ); 
       },
       error: function (result) {
